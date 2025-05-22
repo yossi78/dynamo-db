@@ -142,21 +142,16 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/users/{id}",
+					"raw": "http://localhost:8080/api/users/f1bc35ea-d494-40a3-9e45-f6da2d576cd0",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
+						"api",
 						"users",
-						"{id}"
-					],
-					"variable": [
-						{
-							"key": "id",
-							"value": "PUT_USER_ID_HERE"
-						}
+						"f1bc35ea-d494-40a3-9e45-f6da2d576cd0"
 					]
 				}
 			},
